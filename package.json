@@ -1,0 +1,46 @@
+{
+  "name": "Triage",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "prettier \"src/**/*.(js,html)\" --write",
+    "lint": "eslint \"src/**/*.*(js,jsx)\" --quiet",
+    "test": "mocha --timeout 60000"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "uuid": "^3.2.1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/automl": "^1.0.0",
+    "@google-cloud/language": "^3.3.0",
+    "@google-cloud/storage": "^3.0.0",
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/react-transition-group": "^4.2.0",
+    "@material-ui/styles": "^4.5.0",
+    "mathjs": "^6.0.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "static": "^2.0.0",
+    "typeface-roboto": "0.0.75",
+    "yargs": "^14.0.0"
+  }
+}
